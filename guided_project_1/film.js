@@ -62,7 +62,7 @@ const renderFilm = (film) => {
   homeworldDiv.innerHTML = homeworldList.join("");
   const characterList = film?.characters?.map(
     (character) =>
-      `<li><a href="/character.html?id=${characters.id}">${character.name}</li>`
+      `<li><a href="/character.html?id=${character.id}">${character.name}</li>`
   );
   characterDiv.innerHTML = characterList.join("");
 };
